@@ -3,3 +3,26 @@ body{
 
 }
 
+.italics{
+    font-style: italic;
+    font-size: 16px;
+}
+
+.location{
+    color: rgb(57, 112, 163);
+    font-weight: bold;
+}
+
+.big{
+    font-size:larger;
+    font-weight:bold;
+}
+
+.bluefont{
+    color:rgb(57, 112, 163);
+}
+
+.underline{
+    text-decoration:underline;
+}
+

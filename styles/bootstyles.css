@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(57, 112, 163);
   }
   
   li {
@@ -20,9 +20,58 @@
   }
   
   li a:hover:not(.active) {
-    background-color: #111;
+    background-color: whitesmoke;
+    color: rgb(103, 144, 182)
   }
   
   .active {
-    background-color: #555555;
+    background-color: rgb(103, 144, 182);
   }
+
+
+/* Tableau Styles */
+body{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #555555;
+  background-color: whitesmoke;
+}
+
+h1{
+  color: rgb(57, 112, 163);
+}
+
+.center {
+  margin: auto;
+  width: 70%;
+  text-align: center;
+}
+
+.links{
+  text-align: center;
+  text-decoration: none;
+  color:whitesmoke;
+}
+
+.linktext{
+  text-decoration: none;
+  color:whitesmoke;
+}
+
+.button {
+  margin: auto;
+  width: 30%;
+  padding: 0;
+  overflow: hidden;
+  background-color:rgb(103, 144, 182)
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(103, 144, 182);
+  color: white;
+  text-align: center;
+}
